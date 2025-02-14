@@ -57,7 +57,7 @@ if [[ "$(docker ps -q -f name=$CONTAINER_NAME)" != "" ]]; then
 fi
 
 rocker --nvidia --privileged --x11 --user \
-    --volume $HOME/autoware_map:$HOME/autoware_map \
+    --volume $GREAT_GRAND_PARENT/data/autoware_map:$HOME/autoware_map \
     --volume $GREAT_GRAND_PARENT:$HOME/better_autoware_launch \
     --name $CONTAINER_NAME \
     --detach \
