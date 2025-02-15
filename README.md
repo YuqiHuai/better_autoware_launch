@@ -7,6 +7,11 @@
 1. Uninstall rocker from system
 
 2. Install rocker from https://github.com/YuqiHuai/rocker
+   ```
+   git clone -b features/detach-plugin git@github.com:YuqiHuai/rocker.git --depth=1
+   cd rocker
+   pip install -e .
+   ```
 
 3. Builld autoware images by running
    ```
