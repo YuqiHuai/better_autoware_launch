@@ -60,7 +60,8 @@ rocker --nvidia --privileged --x11 --user \
     --volume $GREAT_GRAND_PARENT/data/autoware_map:$HOME/autoware_map \
     --volume $GREAT_GRAND_PARENT:$HOME/better_autoware_launch \
     --name $CONTAINER_NAME \
+    --mode non-interactive \
     --detach \
-    -- $IMAGE_NAME
+    -- $IMAGE_NAME sleep infinity
 
 echo -e "\e[32m[INFO]: Started container $CONTAINER_NAME\e[0m"
