@@ -1,0 +1,3 @@
+[submodule "autoware"]
+	path = autoware
+	url = git@github.com:autowarefoundation/autoware.git

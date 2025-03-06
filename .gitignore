@@ -1,5 +1,5 @@
-data/autoware_map/*
-!data/autoware_map/.gitkeep
+data/*
+!data/.gitkeep
 
 # Created by https://www.toptal.com/developers/gitignore/api/linux,macos,windows,python,c++,ros,ros2
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,windows,python,c++,ros,ros2
